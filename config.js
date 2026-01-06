@@ -49,7 +49,7 @@ const CONFIG = {
       github: "https://github.com/aogz24/saePisan",
       teknologi: ["Python", "Qt", "R"],
       kategori: ["Desktop", "Data Science", "R", "Python"],
-      unggulan:true,
+      unggulan: true,
     },
     {
       nama: "saePy",
@@ -89,6 +89,47 @@ const CONFIG = {
         "Matplotlib",
       ],
       kategori: ["Data Science", "Machine Learning"],
+    },
+    {
+      nama: "Peta Loka",
+      deskripsi:
+        "PetaLoka adalah platform pemetaan dan analisis untuk UMKM, yang menggabungkan data lokasi, clustering geografis, dan model AI untuk menghasilkan insight strategis. Aplikasi ini memanfaatkan data dari OpenStreetMap, Supabase, dan layanan AI untuk rekomendasi lokasi, analisis kompetitor, dan visualisasi peta interaktif.",
+      github: "https://github.com/aogz24/peta-loka",
+      url: "https://peta-loka.vercel.app/",
+      teknologi: [
+        "Next.js",
+        "leaflet",
+        "Supabase",
+        "OpenStreetMap",
+        "AI Models",
+        "LLama Model",
+      ],
+      kategori: [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Mapping",
+        "Web",
+      ],
+      unggulan: true,
+    },
+    {
+      nama: "Satria JKN",
+      deskripsi:
+        "API untuk sistem deteksi fraud dan analisis klaim JKN (Jaminan Kesehatan Nasional).",
+      github: "https://github.com/aogz24/Satriajkn",
+      teknologi: [
+        "Python",
+        "Flask",
+        "Pandas",
+        "Scikit-learn",
+        "SQLite",
+      ],
+      kategori: [
+        "Machine Learning",
+        "API",
+        "Web",
+      ],
+      unggulan: false,
     },
   ],
 };
